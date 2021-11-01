@@ -11,6 +11,7 @@ def scan(ip):
         client_list.append(client_dt)
         return client_list
 def print_result(result):
+     print("++++++++++++++++++++++++++++++++++++++++++++++++")
     print("IP\t\t\tMAC Address\n-----------------------")
     for users in result_list:
         print(users["ip"] + "\t\t" + users["mac"])
